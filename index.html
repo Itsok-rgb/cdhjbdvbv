@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 For My Jaan 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="container">
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope" id="envelope">
+                <div class="envelope-front">
+                    <div class="heart-icon">💌</div>
+                    <div class="envelope-label">For My Jaan</div>
+                </div>
+                <div class="envelope-back"></div>
+                <div class="letter" id="letter">
+                    <div class="letter-content">
+                        <h1 class="letter-title">My Dearest Jaan 💕</h1>
+                        <div class="letter-text">
+                            <p>On this special day, I want you to know...</p>
+                            <p class="highlight">You are the most beautiful person in my world ✨</p>
+                            <p>Every moment with you feels like magic 🌟</p>
+                            <p>Your smile lights up my entire universe 💫</p>
+                            <p class="highlight">You are my everything, my Jaan 💖</p>
+                            <p>Happy Valentine's Day, my love! 🎉</p>
+                            <p class="signature">With all my love,<br>Forever yours 💝</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content" id="mainContent" style="display: none;">
+            <div class="title-container">
+                <h1 class="main-title">
+                    <span class="title-word rainbow-text">Happy</span>
+                    <span class="title-word rainbow-text">Valentine's</span>
+                    <span class="title-word rainbow-text">Day</span>
+                </h1>
+                <h2 class="subtitle rainbow-text">My Beautiful Jaan 💕</h2>
+            </div>
+
+            <div class="heart-container" id="heartContainer"></div>
+            
+            <div class="message-section">
+                <div class="message-card" id="messageCard">
+                    <div class="card-content">
+                        <div class="message-icon">💝</div>
+                        <p class="message-text" id="messageText">Click anywhere to discover surprises!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="surprise-buttons">
+                <button class="surprise-btn btn-1" id="surprise1">💖 Surprise 1</button>
+                <button class="surprise-btn btn-2" id="surprise2">🌹 Surprise 2</button>
+                <button class="surprise-btn btn-3" id="surprise3">✨ Surprise 3</button>
+                <button class="surprise-btn btn-4" id="surprise4">🎁 Surprise 4</button>
+                <button class="surprise-btn btn-5" id="surprise5">🎆 Surprise 5</button>
+                <button class="surprise-btn btn-6" id="surprise6">💐 Surprise 6</button>
+            </div>
+
+            <div class="interactive-zone">
+                <div class="color-changer" id="colorChanger">🌈 Change Colors!</div>
+                <div class="fireworks-btn" id="fireworksBtn">🎆 Fireworks!</div>
+            </div>
+
+            <div class="floating-hearts" id="floatingHearts"></div>
+            <canvas id="particleCanvas"></canvas>
+        </div>
+
+        <div class="confetti-container" id="confettiContainer"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
